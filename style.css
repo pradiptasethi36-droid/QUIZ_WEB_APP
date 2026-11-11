@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    background: #f5f5fa;
+    color: #202333;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: min(100%, 540px);
+    padding: 38px;
+    background: white;
+    border: 1px solid #ececf3;
+    border-radius: 24px;
+    box-shadow: 0 24px 70px #29245d12;
+}
+
+.hero {
+    text-align: center;
+}
+
+.eyebrow {
+    color: #7161df;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.icon {
+    margin: 20px 0 8px;
+    font-size: 46px;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 36px;
+}
+
+h1 span,
+.score {
+    color: #7161df;
+}
+
+.intro {
+    color: #77798b;
+    line-height: 1.6;
+}
+
+.primary {
+    display: block;
+    width: 100%;
+    margin-top: 24px;
+    padding: 16px;
+    border: 0;
+    border-radius: 12px;
+    background: #7161df;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.primary:hover {
+    background: #5e4ecb;
+}
+
+.question {
+    font-size: 28px;
+}
+
+.progress {
+    height: 6px;
+    margin: 20px 0 30px;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #efedf9;
+}
+
+.progress div {
+    height: 100%;
+    background: #7161df;
+}
+
+.answer {
+    display: block;
+    margin: 10px 0;
+    padding: 14px;
+    border: 1px solid #e9e9f0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.answer:hover {
+    background: #f8f7ff;
+}
+
+.answer input {
+    margin-right: 10px;
+    accent-color: #7161df;
+}
+
+.score {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+@media (max-width: 520px) {
+    .card {
+        padding: 28px 22px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .question {
+        font-size: 24px;
+    }
+}
