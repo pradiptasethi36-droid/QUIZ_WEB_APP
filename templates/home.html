@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="card hero">
+        <p class="eyebrow">A little brain break</p>
+        <div class="icon">🧠</div>
+        <h1>Quiz <span>Time</span></h1>
+        <p class="intro">Five quick questions. How many can you get right?</p>
+
+        <form method="POST">
+            <button class="primary" type="submit">Start the quiz →</button>
+        </form>
+    </main>
+</body>
+</html>
